@@ -2,7 +2,7 @@ spring:
   application:
     name: Demo
   datasource:
-    url: jdbc:mysql://localhost:3306/frontend?zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=UTF-8&characterSetResults=UTF-8
+    url: jdbc:mysql://localhost:3306/crud_demo?zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=UTF-8&characterSetResults=UTF-8
     username: root
     password: p@ssw0rd
   data:
@@ -13,6 +13,6 @@ spring:
     hibernate:
       ddl-auto: update
 server:
-  port: 7080
+  port: 7082
   servlet:
     context-path: /
